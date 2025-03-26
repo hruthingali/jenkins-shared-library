@@ -1,0 +1,4 @@
+build:
+  maven: "mvn clean install"
+deploy:
+  env: "staging"
