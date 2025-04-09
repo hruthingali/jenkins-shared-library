@@ -6,7 +6,7 @@ def call() {
 
         stage('Unit Tests') {
             echo 'Running unit tests...'
-           // sh 'gradle test'
+            sh 'gradle test'
 
         }
 
